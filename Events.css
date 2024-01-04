@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    padding-left: 570px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+li {
+    float: left;
+}
+
+a { /*Nav bar*/
+    display: block;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.881);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Overpass Mono";
+}
+.marchtitle{
+    font-family: "Overpass Mono";
+    color: white;
+    font-size: 250px;
+    margin-left: 700px;
+    margin-bottom: 400px; /* pampalayo ng pic sa baba*/
+    margin-top: -1000px; /*para umangat title */
+}
+.marchdesc{
+    font-family: "Overpass Mono";
+    color: white;
+    font-size: 150px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: -100px;
+}
+.maytitle{
+    font-family: "Overpass Mono";
+    color: white;
+    font-size: 250px;
+    margin-left: 930px;
+    margin-bottom: 800px; /* pampalayo ng pic sa baba*/
+    margin-top: -850px; /*para umangat title */
+}
+.maydesc{
+    font-family: "Overpass Mono";
+    color: white;
+    font-size: 150px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: -500px;
+}
+.junetitle{
+    font-family: "Overpass Mono";
+    color: white;
+    font-size: 250px;
+    margin-left: 400px;
+    margin-bottom: 700px; /* pampalayo ng pic sa baba*/
+    margin-top: -850px; /*para umangat title */
+}
+.junedesc{
+    font-family: "Overpass Mono";
+    color: white;
+    font-size: 150px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: -350px;
+    padding-bottom: 200px;
+}
+.moreeventsdito{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-left: 600px;
+    margin-top: -100px;
+    font-size: 200px;
+}
