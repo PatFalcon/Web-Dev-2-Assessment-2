@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    padding-left: 570px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+li {
+    float: left;
+}
+
+a { /*Nav bar*/
+    display: block;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.881);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Overpass Mono";
+}
+.description{
+    font-size: x-large;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+.bandphoto {
+    padding: 20px; /* Adjust padding as needed */
+    max-width: 100%;
+    height: auto;
+}
+.aboutband {
+    color: white;
+    max-width: 500px; /* Set a maximum width for the text to prevent it from extending too far */
+    padding-left: 770px;
+    margin-top: -490px; /*para nasa top right yung PSYCODE */
+    padding-top: 300px;
+    font-size: 270%;
+    font-family: "Overpass Mono";
+    color: white;
+}
+.title{
+    color: white;
+    margin-top: -10px ;
+}
+.linzie{
+    margin-left: 600px;
+}
+.linzietitle{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 150px;
+    margin-top: -1200px;
+    padding-left: 140px;
+    font-size: 300px;
+}
+.linziedesc{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 100px;
+    margin-top: -100px;
+    padding-left: 80px; /*less number = pakaliwa viceversa */ 
+    font-size: 30px;
+}
+.dan{
+    margin-left: 100px;
+    padding-top: 700px;
+}
+.dantitle{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 100px;
+    margin-top: -1200px;
+    padding-left: 350px;
+    font-size: 300px;
+}
+.dandesc{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 500px;
+    margin-top: 70px;
+    padding-left: 1000px; /*less number = pakaliwa viceversa */ 
+    font-size: 30px;
+}
+.kurt{
+    margin-left: 350px;
+    padding-top: 200px;
+    padding-bottom: 0;
+}
+.kurttitle{
+    font-family: "Overpass Mono";
+    color: rgb(184, 0, 0);
+    margin-bottom: 150px;
+    margin-top: -500px;
+    padding-left: 430px;
+    font-size: 300px;
+    text-decoration: underline;
+
+}
+.kurtdesc{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    padding-left: 200px; /*less number = pakaliwa viceversa */ 
+    font-size: 30px;
+}
+.pats{
+    margin-left: 700px;
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+.patstitle{
+    font-family: "Overpass Mono";
+    color: white;   
+    margin-bottom: 10px;
+    margin-top: -865px;
+    padding-left: 100px;
+    font-size: 300px;
+}
+.patsdesc{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-left: 70px; /*less number = pakaliwa viceversa */ 
+    font-size: 30px;
+}
+.hannah{
+    margin-left: 60px;
+    padding-top: 200px;
+}
+.hannahtitle{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 5px;
+    margin-top: -1100px;
+    padding-left: 500px;
+    font-size: 250px;
+}
+.hannahdesc{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    padding-left: 820px; /*less number = pakaliwa viceversa */ 
+    font-size: 30px;
+}
+.mark{
+    margin-left: 700px;
+    padding-top: 600px;
+}
+.marktitle{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 5px;
+    margin-top: -1100px;
+    padding-left: 125px;
+    font-size: 300px;
+}
+.markdesc{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    padding-left: 120px; /*less number = pakaliwa viceversa */ 
+    font-size: 30px;
+}
+.jaren{
+    margin-left: 60px;
+    padding-top: 500px;
+}
+.jarentitle{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 5px;
+    margin-top: -530px;
+    padding-left: 800px;
+    font-size: 200px;
+}
+.jarendesc{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    padding-left: 860px; /*less number = pakaliwa viceversa */ 
+    font-size: 30px;
+}
+.mariya{
+    margin-left: 700px;
+    padding-top: 300px;
+}
+.mariyatitle{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 5px;
+    margin-top: -820px;
+    padding-left: 125px;
+    font-size: 300px;
+}
+.mariyadesc{
+    font-family: "Overpass Mono";
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    padding-left: 100px; /*less number = pakaliwa viceversa */ 
+    font-size: 30px;
+}
