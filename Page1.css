@@ -213,3 +213,1188 @@ a { /*Nav bar*/
     padding-left: 100px; /*less number = pakaliwa viceversa */ 
     font-size: 30px;
 }
+@media only screen and (max-width: 375px) { /* For iphone x: */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: black;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 10px;
+        margin-left: -180px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    li {
+        float: left;
+    }
+    a { /*Nav bar*/
+        display: block;
+        padding: 8px;
+        background-color: rgba(0, 0, 0, 0.881);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: "Overpass Mono";
+    }
+    .description{
+        padding-top: 40px;
+        padding-bottom: 200px;
+        margin-left: -500px;
+        text-orientation: upright;
+    }
+    #banddesc{
+        font-size: 40%;
+    }
+    .bandphoto {
+        padding: 20px; /* Adjust padding as needed */
+        max-width: 100%;
+        height: auto;
+    }
+    .title{
+        margin-left: -490px;
+        padding-bottom: 20px;
+        font-size: 65px;
+        color: white;
+        margin-top: -10px ;
+    }
+    .aboutband {
+        color: white;
+        max-width: 500px; /* Set a maximum width for the text to prevent it from extending too far */
+        padding-left: 770px;
+        margin-top: -490px; /*para nasa top right yung PSYCODE */
+        padding-top: 300px;
+        font-size: 270%;
+        font-family: "Overpass Mono";
+        color: white;
+    }
+    #Linzpic{
+        margin-left: 300px;
+    }
+    #Singer{
+        font-size: 50px;
+        padding-top: -500px;
+        margin-bottom: 0;
+        margin-top: -600px; /* angat n baba ng title n desc*/
+        margin-left: 10px; /* adjusts name*/
+        padding-bottom: 400px; /*hiwalay ng desc sa title*/
+        font-family: "Overpass Mono";
+    }
+    #Singerdesc{
+        margin-left: 220px;
+        font-size: 70%;
+        font-stretch:normal;
+        writing-mode: vertical-rl; /*lagay mo na lang para di pahaba*/
+        transform: rotate(270deg); /*para tumayo nang maayos or normal */
+    }
+    .linziedesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: -100px;
+        padding-left: 80px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Danpic{
+        margin-left: 290px;
+        padding-top: 20px;
+        margin-top: -200px;
+    }
+    #Drums{
+        font-size: 50px;
+        margin-top: -740px;
+    }
+    #Drummerdesc{
+        margin-left: -670px;
+        font-size: 70%;
+        font-stretch:normal;
+        margin-top: 240px;
+    }
+    .dan{
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+    .dantitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: -1200px;
+        padding-left: 350px;
+        font-size: 300px;
+    }
+    .dandesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 500px;
+        margin-top: 70px;
+        padding-left: 1000px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Kurtpic{
+        margin-left: 290px;
+        padding-top: 20px;
+        margin-top: -400px;
+        margin-bottom: 200px;
+        width: 55%;
+    }
+    #Guitar2{
+        font-size: 60px;
+        margin-top: -480px;
+        margin-left: -120px;
+        margin-bottom: -20px;
+    }
+    #Guitar2desc{
+        margin-left: -40px;
+        font-size: 70%;
+        margin-top: 80px;
+        padding-bottom: 200px;
+    }
+    .kurt{
+        margin-left: 350px;
+        padding-top: 200px;
+        padding-bottom: 0;
+    }
+    .kurttitle{
+        font-family: "Overpass Mono";
+        color: rgb(184, 0, 0);
+        margin-bottom: 150px;
+        margin-top: -500px;
+        padding-left: 430px;
+        font-size: 300px;
+        text-decoration: underline;
+    
+    }
+    .kurtdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        padding-left: 200px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Patspic{
+        margin-left: 290px;
+        padding-top: 10px;
+        margin-top: -200px;
+    }
+    #Bass{
+        font-size: 50px;
+        margin-top: -300px;
+    }
+    #Bassdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 500px;
+        margin-top: -70px;
+        padding-left: 70px; /*less number = pakaliwa viceversa */ 
+        padding-right: 160%;
+        font-size: 30px;
+        writing-mode: vertical-rl; /*lagay mo na lang para di pahaba*/
+        transform: rotate(270deg);
+        font-size: 70%;
+    }
+    .pats{
+        margin-left: 700px;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+    .patstitle{
+        font-family: "Overpass Mono";
+        color: white;   
+        margin-bottom: 10px;
+        margin-top: -865px;
+        padding-left: 100px;
+        font-size: 300px;
+    }
+    .patsdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        padding-left: 70px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Hannahpic{
+        margin-top: -400px;
+        margin-left: 300px;
+    }
+    #Guitar3{
+        font-size: 60px;
+        margin-top: -780px;
+        margin-left: -230px;
+        margin-bottom: -20px;
+    }
+    #Guitar3desc{
+        margin-left: -500px;
+        font-size: 70%;
+        margin-top: 300px;
+        padding-bottom: 200px;
+    }
+    .hannah{
+        margin-left: 60px;
+        padding-top: 200px;
+    }
+    .hannahtitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -1100px;
+        padding-left: 500px;
+        font-size: 250px;
+    }
+    .hannahdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 820px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Markpic{
+        margin-left: 300px;
+        padding-top: 10px;
+        margin-top: -200px;
+    }
+    #Guitar1{
+        font-size: 60px;
+        margin-top: -520px;
+        margin-left: 75px;
+        margin-bottom: -50px;
+    }
+    #Guitar1desc{
+        margin-left: 350px;
+        font-size: 70%;
+        margin-top: 250px;
+        padding-bottom: 200px;
+        writing-mode: vertical-rl; /*lagay mo na lang para di pahaba*/
+        transform: rotate(270deg);
+    }
+    .mark{
+        margin-left: 700px;
+        padding-top: 600px;
+    }
+    .marktitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -1100px;
+        padding-left: 125px;
+        font-size: 300px;
+    }
+    .markdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 120px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Jarenpic{
+        margin-left: 300px;
+        padding-bottom:500px;
+        padding-top: 10px;
+        margin-top: -200px;
+        width: 50%;
+    }
+    #Keyboard{
+        font-size: 50px;
+        margin-top: -700px;
+        margin-left: -480px;
+        margin-bottom: -50px;   
+    }
+    #Keyboarddesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 200px;
+        padding-left: 300px; /*less number = pakaliwa viceversa */ 
+        padding-bottom: 300px;
+        font-size: 90%;
+        /*margin-left: -50px;
+        font-size: 70%;
+        margin-top: 555px;
+        padding-bottom: 200px;
+        writing-mode: vertical-rl; /*lagay mo na lang para di pahaba
+        transform: rotate(270deg);*/
+    }
+    .jaren{
+        margin-left: 60px;
+        padding-top: 500px;
+    }
+    .jarentitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -530px;
+        padding-left: 800px;
+        font-size: 200px;
+    }
+    .jarendesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 860px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .mariya{
+        margin-left: 700px;
+        padding-top: 300px;
+    }
+    #Mariyapic{
+        margin-left: 300px;
+        padding-top: 10px;
+        margin-top: -200px;
+    }
+    #Manager{
+        font-size: 60px;
+        margin-top: -300px;
+        margin-left: 80px;
+        margin-bottom: -20px;
+    }
+    #Managerdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 250px;
+        padding-left: 300px; /*less number = pakaliwa viceversa */ 
+        padding-bottom: 300px;
+        font-size: 90%;
+    }
+    .mariyatitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -820px;
+        padding-left: 125px;
+        font-size: 300px;
+    }
+    .mariyadesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 100px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+}
+}
+/* Add media queries for other devices */
+/* Styles for Google Pixel devices (Pixel, Pixel 2, Pixel 3, Pixel 4) in portrait orientation */
+@media only screen 
+  and (min-width: 411px) 
+  and (max-width: 480px) 
+  and (orientation: portrait) {    
+    /* Adjust styles as needed for portrait mode on various Pixel devices */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: black;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 10px;
+        margin-left: -180px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    a { /*Nav bar*/
+        display: block;
+        padding: 8px;
+        background-color: rgba(0, 0, 0, 0.881);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: "Overpass Mono";
+    }
+    .description{
+        padding-top: 40px;
+        padding-bottom: 200px;
+        margin-left: -500px;
+        text-orientation: upright;
+    }
+    #banddesc{
+        font-size: 40%;
+    }
+    .bandphoto {
+        padding: 20px; /* Adjust padding as needed */
+        max-width: 100%;
+        height: auto;
+    }
+    .title{
+        margin-left: -490px;
+        padding-bottom: 20px;
+        font-size: 65px;
+        color: white;
+        margin-top: -10px ;
+    }
+    .aboutband {
+        color: white;
+        max-width: 500px; /* Set a maximum width for the text to prevent it from extending too far */
+        padding-left: 770px;
+        margin-top: -490px; /*para nasa top right yung PSYCODE */
+        padding-top: 300px;
+        font-size: 270%;
+        font-family: "Overpass Mono";
+        color: white;
+    }
+    #Linzpic{
+        margin-left: 300px;
+    }
+    #Singer{
+        font-size: 50px;
+        padding-top: -500px;
+        margin-bottom: 0;
+        margin-top: -600px; /* angat n baba ng title n desc*/
+        margin-left: 10px; /* adjusts name*/
+        padding-bottom: 400px; /*hiwalay ng desc sa title*/
+        font-family: "Overpass Mono";
+    }
+    #Singerdesc{
+        margin-left: 220px;
+        font-size: 70%;
+        font-stretch:normal;
+        writing-mode: vertical-rl; /*lagay mo na lang para di pahaba*/
+        transform: rotate(270deg); /*para tumayo nang maayos or normal */
+    }
+    .linziedesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: -100px;
+        padding-left: 80px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Danpic{
+        margin-left: 290px;
+        padding-top: 20px;
+        margin-top: -200px;
+    }
+    #Drums{
+        font-size: 50px;
+        margin-top: -740px;
+    }
+    #Drummerdesc{
+        margin-left: -670px;
+        font-size: 70%;
+        font-stretch:normal;
+        margin-top: 240px;
+    }
+    .dan{
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+    .dantitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: -1200px;
+        padding-left: 350px;
+        font-size: 300px;
+    }
+    .dandesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 500px;
+        margin-top: 70px;
+        padding-left: 1000px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Kurtpic{
+        margin-left: 290px;
+        padding-top: 20px;
+        margin-top: -400px;
+        margin-bottom: 200px;
+        width: 55%;
+    }
+    #Guitar2{
+        font-size: 60px;
+        margin-top: -480px;
+        margin-left: -120px;
+        margin-bottom: -20px;
+    }
+    #Guitar2desc{
+        margin-left: -40px;
+        font-size: 70%;
+        margin-top: 80px;
+        padding-bottom: 200px;
+    }
+    .kurt{
+        margin-left: 350px;
+        padding-top: 200px;
+        padding-bottom: 0;
+    }
+    .kurttitle{
+        font-family: "Overpass Mono";
+        color: rgb(184, 0, 0);
+        margin-bottom: 150px;
+        margin-top: -500px;
+        padding-left: 430px;
+        font-size: 300px;
+        text-decoration: underline;
+    
+    }
+    .kurtdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        padding-left: 200px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Patspic{
+        margin-left: 290px;
+        padding-top: 10px;
+        margin-top: -200px;
+    }
+    #Bass{
+        font-size: 50px;
+        margin-top: -300px;
+    }
+    #Bassdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 500px;
+        margin-top: -70px;
+        padding-left: 70px; /*less number = pakaliwa viceversa */ 
+        padding-right: 160%;
+        font-size: 30px;
+        writing-mode: vertical-rl; /*lagay mo na lang para di pahaba*/
+        transform: rotate(270deg);
+        font-size: 70%;
+    }
+    .pats{
+        margin-left: 700px;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+    .patstitle{
+        font-family: "Overpass Mono";
+        color: white;   
+        margin-bottom: 10px;
+        margin-top: -865px;
+        padding-left: 100px;
+        font-size: 300px;
+    }
+    .patsdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        padding-left: 70px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Hannahpic{
+        margin-top: -400px;
+        margin-left: 300px;
+    }
+    #Guitar3{
+        font-size: 60px;
+        margin-top: -780px;
+        margin-left: -230px;
+        margin-bottom: -20px;
+    }
+    #Guitar3desc{
+        margin-left: -500px;
+        font-size: 70%;
+        margin-top: 300px;
+        padding-bottom: 200px;
+    }
+    .hannah{
+        margin-left: 60px;
+        padding-top: 200px;
+    }
+    .hannahtitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -1100px;
+        padding-left: 500px;
+        font-size: 250px;
+    }
+    .hannahdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 820px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Markpic{
+        margin-left: 300px;
+        padding-top: 10px;
+        margin-top: -200px;
+    }
+    #Guitar1{
+        font-size: 60px;
+        margin-top: -520px;
+        margin-left: 75px;
+        margin-bottom: -50px;
+    }
+    #Guitar1desc{
+        margin-left: 350px;
+        font-size: 70%;
+        margin-top: 250px;
+        padding-bottom: 200px;
+        writing-mode: vertical-rl; /*lagay mo na lang para di pahaba*/
+        transform: rotate(270deg);
+    }
+    .mark{
+        margin-left: 700px;
+        padding-top: 600px;
+    }
+    .marktitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -1100px;
+        padding-left: 125px;
+        font-size: 300px;
+    }
+    .markdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 120px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    #Jarenpic{
+        margin-left: 300px;
+        padding-bottom:500px;
+        padding-top: 10px;
+        margin-top: -200px;
+        width: 50%;
+    }
+    #Keyboard{
+        font-size: 50px;
+        margin-top: -700px;
+        margin-left: -480px;
+        margin-bottom: -50px;   
+    }
+    #Keyboarddesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 200px;
+        padding-left: 300px; /*less number = pakaliwa viceversa */ 
+        padding-bottom: 300px;
+        font-size: 90%;
+        /*margin-left: -50px;
+        font-size: 70%;
+        margin-top: 555px;
+        padding-bottom: 200px;
+        writing-mode: vertical-rl; /*lagay mo na lang para di pahaba
+        transform: rotate(270deg);*/
+    }
+    .jaren{
+        margin-left: 60px;
+        padding-top: 500px;
+    }
+    .jarentitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -530px;
+        padding-left: 800px;
+        font-size: 200px;
+    }
+    .jarendesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 860px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .mariya{
+        margin-left: 700px;
+        padding-top: 300px;
+    }
+    #Mariyapic{
+        margin-left: 300px;
+        padding-top: 10px;
+        margin-top: -200px;
+    }
+    #Manager{
+        font-size: 60px;
+        margin-top: -300px;
+        margin-left: 80px;
+        margin-bottom: -20px;
+    }
+    #Managerdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 250px;
+        padding-left: 300px; /*less number = pakaliwa viceversa */ 
+        padding-bottom: 300px;
+        font-size: 90%;
+    }
+    .mariyatitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -820px;
+        padding-left: 125px;
+        font-size: 300px;
+    }
+    .mariyadesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 100px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+}
+}
+@media screen and (max-width: 768px) {
+    /* Styles for iPad */
+    a { /*Nav bar*/
+        display: block;
+        padding: 8px;
+        padding-left: 0px;
+        margin-left: 400px;
+        background-color: rgba(0, 0, 0, 0.881);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: "Overpass Mono";
+    }
+    .bandphoto {
+        width: 100%;
+        height: auto;        
+    }
+    .aboutband {
+        max-width: 100%;
+        padding-left: 20px;
+        margin-top: 20px;
+        font-size: 150%;
+    }
+    /*.bandphoto {
+        padding: 30px;
+        padding-left: 250px;
+        width: 200%;
+        height: 200%; */
+    /*.aboutband {
+        color: white;
+        max-width: 500px; /* Set a maximum width for the text to prevent it from extending too far 
+        padding-left: 400px;
+        margin-left: -200px;
+        margin-top: -490px; /*para nasa top right yung PSYCODE 
+        padding-top: 300px;
+        font-size: 270%;
+        font-family: "Overpass Mono";
+        color: white;
+    } */
+    .linzie{
+        margin-left: 0px;
+        width: 50%;
+        height: 50%;
+    }
+    .linzietitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: -600px;
+        padding-left: 0px;
+        font-size: 100px;
+        padding-top: 300px;
+        margin-left: -200px;
+    }
+    .linziedesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 10px;
+        margin-top: -100px;
+        padding-left: 500px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+        margin-left: -230px;
+    }
+    .dan{
+        margin-left: 150px;
+        padding-top: 100px;
+        margin-bottom: 100px;
+        padding-bottom: 300px;
+    }
+    .dantitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: -1200px;
+        padding-left: 300px;
+        font-size: 300px;
+    }
+    .dandesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: -100px;
+        margin-top: 20px;
+        padding-left: 700px; /*less number = pakaliwa viceversa */ 
+        font-size: 10px;
+        margin-left: -400px;
+        padding-bottom: -10px;
+        padding-top: -20px;
+        margin-right: -200px;
+    }
+    .kurt{
+        margin-left: 400px;
+        padding-left: -500px;
+        padding-top: 200px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .kurttitle{
+        font-family: "Overpass Mono";
+        color: rgb(184, 0, 0);
+        margin-bottom: 150px;
+        margin-top: -500px;
+        padding-left: 450px;
+        margin-left: -400px;
+        padding-top: 150px;
+        font-size: 300px;
+        padding-bottom: -500px;
+        text-decoration: underline;
+    
+    }
+    .kurtdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        padding-top: -50px;
+        padding-left: 350px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .pats{
+        margin-left: 900px;
+        padding-top: 500px;
+        padding-bottom: 0;
+        margin-top: 300px;
+    }
+    .patstitle{
+        font-family: "Overpass Mono";
+        color: white;   
+        margin-bottom: 10px;
+        margin-top: -8px;
+        padding-left: 300px;
+        font-size: 300px;
+    }
+    .patsdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        padding-left: 300px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .hannah{
+        margin-left: 160px;
+        padding-top: 200px;
+        margin-bottom: 200px;
+    }
+    .hannahtitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -1020px;
+        padding-left: 540px;
+        font-size: 150px;
+        margin-left: -150px;
+        padding-top: 200px;
+    }
+    .hannahdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        font-size: 30px;
+        margin-left: -200px;
+    }
+    .mark{
+        margin-left: 100px;
+        padding-top: 600px;
+        padding-left: -500px;
+        margin-bottom: 200px;
+    }
+    .marktitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -1100px;
+        padding-left: 230px;
+        font-size: 300px;
+    }
+    .markdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 250px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+        margin-right: 200px;
+    }
+    .jaren{
+        margin-left: 60px;
+        padding-top: 500px;
+        width: 80%;
+    }
+    .jarentitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -530px;
+        padding-left: 770px;
+        font-size: 200px;
+        margin-left: -250px;
+        padding-bottom: -200px;
+        
+
+    }
+    .jarendesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 860px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .mariya{
+        margin-left: 800px;
+        padding-top: 300px;
+        
+    }
+    .mariyatitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -820px;
+        padding-left: 200px;
+        font-size: 300px;
+        margin-left: -150px;
+    }
+    .mariyadesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 270px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    /* Styles for MacBook Pro */
+    a { /*Nav bar*/
+        display: block;
+        padding: 8px;
+        padding-left: 30px;
+        background-color: rgba(0, 0, 0, 0.881);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: "Overpass Mono";
+    }
+    .bandphoto {
+        padding: 30px; /* Adjust padding as needed */
+        padding-left: 250px;
+        max-width: 100%;
+        height: auto;
+    }
+    .aboutband {
+        color: white;
+        max-width: 500px; /* Set a maximum width for the text to prevent it from extending too far */
+        padding-left: 500px;
+        margin-top: -490px; /*para nasa top right yung PSYCODE */
+        padding-top: 300px;
+        font-size: 270%;
+        font-family: "Overpass Mono";
+        color: white;
+    }
+    .linzie{
+        margin-left: 600px;
+        width: 50%;
+        height: 50%;
+    }
+    .linzietitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 150px;
+        margin-top: -1020px;
+        padding-left: 300px;
+        font-size: 250px;
+    }
+    .linziedesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: -100px;
+        padding-left: 300px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .dan{
+        margin-left: 150px;
+        padding-top: 700px;
+    }
+    .dantitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: -1200px;
+        padding-left: 300px;
+        font-size: 300px;
+    }
+    .dandesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 500px;
+        margin-top: 70px;
+        padding-left: 1000px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .kurt{
+        margin-left: 400px;
+        padding-top: 200px;
+        padding-bottom: 0;
+    }
+    .kurttitle{
+        font-family: "Overpass Mono";
+        color: rgb(184, 0, 0);
+        margin-bottom: 150px;
+        margin-top: -500px;
+        padding-left: 450px;
+        font-size: 300px;
+        text-decoration: underline;
+    
+    }
+    .kurtdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        padding-left: 350px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .pats{
+        margin-left: 700px;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+    .patstitle{
+        font-family: "Overpass Mono";
+        color: white;   
+        margin-bottom: 10px;
+        margin-top: -865px;
+        padding-left: 300px;
+        font-size: 300px;
+    }
+    .patsdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        padding-left: 300px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .hannah{
+        margin-left: 160px;
+        padding-top: 200px;
+    }
+    .hannahtitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -1020px;
+        padding-left: 540px;
+        font-size: 200px;
+    }
+    .hannahdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 820px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .mark{
+        margin-left: 750px;
+        padding-top: 600px;
+    }
+    .marktitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -1100px;
+        padding-left: 230px;
+        font-size: 300px;
+    }
+    .markdesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 250px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .jaren{
+        margin-left: 60px;
+        padding-top: 500px;
+    }
+    .jarentitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -530px;
+        padding-left: 770px;
+        font-size: 200px;
+    }
+    .jarendesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 860px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+    .mariya{
+        margin-left: 900px;
+        padding-top: 300px;
+    }
+    .mariyatitle{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 5px;
+        margin-top: -820px;
+        padding-left: 200px;
+        font-size: 300px;
+    }
+    .mariyadesc{
+        font-family: "Overpass Mono";
+        color: white;
+        margin-bottom: 100px;
+        margin-top: 70px;
+        padding-left: 270px; /*less number = pakaliwa viceversa */ 
+        font-size: 30px;
+    }
+}
+
+/* Additional styles for other screen sizes if needed */
+
+/* Common styles for all screen sizes */
+.description {
+    font-size: x-large;
+    padding-top: 40px;
+    padding-bottom: 200px;
+} 
